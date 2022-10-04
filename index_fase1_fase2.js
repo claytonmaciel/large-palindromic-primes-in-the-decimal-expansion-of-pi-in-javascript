@@ -3,7 +3,6 @@ const CHUNK_SIZE = 500000000; // 500 MB - Tamanho do pedaço do arquivo que vai 
 const DNPI = 9; //Números de dígitos do palíndromo a ser encontrado.
 let resp = [] //Variável resposta que armazena os palíndromose primos encontrados na expansão decimal do PI.
 const file = './Pib.txt'; 
-//const file = '/Volumes/CLAYTON/pi_dec_1t_02.txt';
 
 
 /* As três funções a seguir (power, miillerTest, isPrime)
