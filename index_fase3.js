@@ -4,7 +4,6 @@ const CHUNK_SIZE = 300000; // 300 KB - Tamanho do pedaço do arquivo que vai par
 let DNPI = 9; //Números de dígitos atual do maior palindromo primo.
 let resp = new Map(); //Variável resposta que armazena os palíndromos e primos encontrados na expansão decimal do PI.
 const file = './PIb.txt'; 
-//const file = '/Volumes/CLAYTON/pi_dec_1t_02.txt';
 
 
 /* As três funções a seguir (power, miillerTest, isPrime)
